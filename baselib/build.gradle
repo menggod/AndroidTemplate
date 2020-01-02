@@ -29,7 +29,7 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    implementation rootProject.ext.supportLibs
+    api rootProject.ext.supportLibs
 
     api rootProject.ext.networkLibs
     api rootProject.ext.rxJavaLibs
