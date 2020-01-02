@@ -1,4 +1,4 @@
-package com.example.baselib.widget;
+package com.common.baselib.widget;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

@@ -1,4 +1,4 @@
-package com.example.template;
+package com.common.template;
 
 import androidx.appcompat.app.AppCompatActivity;
 

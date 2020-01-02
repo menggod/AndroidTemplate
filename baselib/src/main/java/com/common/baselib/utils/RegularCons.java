@@ -1,4 +1,4 @@
-package com.example.baselib.utils;
+package com.common.baselib.utils;
 
 /**
  * Created by MirkoWu on 2017/4/20 0020.

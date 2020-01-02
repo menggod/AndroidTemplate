@@ -1,4 +1,4 @@
-package com.example.baselib.net;
+package com.common.baselib.net;
 
 /**
  * @author yiche

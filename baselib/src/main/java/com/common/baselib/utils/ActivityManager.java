@@ -1,4 +1,4 @@
-package com.example.baselib.utils;
+package com.common.baselib.utils;
 
 import android.app.Activity;
 import android.app.Application;
