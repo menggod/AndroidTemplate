@@ -36,7 +36,7 @@ public class ToastUtil {
         LayoutInflater inflate = (LayoutInflater)
                 context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View v = inflate.inflate(R.layout.transient_notification, null);
-        mTvMessage = (TextView) v.findViewById(R.id.message);
+        mTvMessage = v.findViewById(R.id.message);
         mTvMessage.setText(message);
 
         mToast.setView(v);

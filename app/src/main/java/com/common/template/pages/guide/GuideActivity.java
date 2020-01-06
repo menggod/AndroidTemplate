@@ -1,5 +1,6 @@
 package com.common.template.pages.guide;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
@@ -22,6 +23,11 @@ public class GuideActivity extends BaseActivity {
 
     private Banner mBackgroundBanner;
     private Banner mForegroundBanner;
+
+    public static void openActivity(Activity activity) {
+        Intent intent = new Intent(activity, GuideActivity.class);
+        activity.startActivity(intent);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

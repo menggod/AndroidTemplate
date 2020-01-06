@@ -1,5 +1,7 @@
 package com.common.template;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.common.baselib.base.BaseActivity;
@@ -12,6 +14,11 @@ import com.common.baselib.utils.ToastUtil;
  * @author yiche
  */
 public class MainActivity extends BaseActivity {
+
+    public static void openActivity(Activity activity) {
+        Intent intent = new Intent(activity, MainActivity.class);
+        activity.startActivity(intent);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
