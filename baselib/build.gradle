@@ -35,4 +35,7 @@ dependencies {
     api rootProject.ext.rxJavaLibs
     api rootProject.ext.otherLibs
 
+    api 'com.facebook.stetho:stetho:1.5.1'
+    implementation 'com.facebook.stetho:stetho-okhttp3:1.5.1'
+
 }

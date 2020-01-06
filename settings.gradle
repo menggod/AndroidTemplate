@@ -1,6 +1,6 @@
 rootProject.name='Template'
 include ':app'
 include ':baselib'
-include ':commonlib'
+include ':scaffold'
 include ':pluginlib'
 

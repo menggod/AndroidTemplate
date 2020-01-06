@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="banner_indicatorId" type="id" />
+    <item name="fake_status_bar_view" type="id"/>
+
+</resources>
