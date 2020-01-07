@@ -1,4 +1,4 @@
-package com.common.template.pages.guide;
+package com.common.template.readypages.guide;
 
 import android.app.Activity;
 import android.content.Intent;

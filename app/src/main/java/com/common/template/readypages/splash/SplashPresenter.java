@@ -1,4 +1,4 @@
-package com.common.template.pages.splash;
+package com.common.template.readypages.splash;
 
 import com.common.baselib.base.BasePresent;
 

@@ -1,8 +1,7 @@
-package com.common.template.pages.splash;
+package com.common.template.readypages.splash;
 
 import android.os.Bundle;
 import android.os.CountDownTimer;
-import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -13,7 +12,7 @@ import com.common.baselib.immersion.StatusBarUtils;
 import com.common.baselib.utils.ResUtils;
 import com.common.template.MainActivity;
 import com.common.template.R;
-import com.common.template.pages.guide.GuideActivity;
+import com.common.template.readypages.guide.GuideActivity;
 
 /**
  * 项目名称：Template

@@ -2,9 +2,10 @@ https://mubu.com/doc/i3ws1cNMo0  关联文件说明
 
 
 app          主app项目
-scaffold   装载集成可被调用页面,集成页面基于baselib
 baselib     基础的组件 含(网络 沉浸式 net 基类 工具 图片选择器等 )
+
 pluginlib    构想是后期引入???
+scaffold   装载集成可被调用页面,集成页面基于baselib  ???
 
 --------------------说明----------------------
 功能性库:不以module的方式存在  而是以package的形式存在(例如:图片选择库).
